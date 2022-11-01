@@ -6,8 +6,8 @@
 #   Mattias Vandelannoote
 # Date:
 #   2022-10-31
-# Purpose:
-#   Corrects the time and date settings on the user device.
+# Description:
+#   Corrects the Time and Date settings on the user device.
 
 # Variables:
     $ExitCode = 0
