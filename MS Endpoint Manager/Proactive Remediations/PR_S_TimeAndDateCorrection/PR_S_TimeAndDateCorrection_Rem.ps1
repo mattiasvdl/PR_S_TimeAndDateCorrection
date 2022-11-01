@@ -11,6 +11,7 @@
 
 # Variables:
     $ExitCode = 0
+    $LogFolderLocation = "$env:PROGRAMDATA\MattiasVdl\Logs"
 
 # Functions:
     Function Write-Log() {
@@ -34,7 +35,7 @@
             $ScriptName = $MyInvocation.ScriptName.split("\")[-1]
             $PRName = $ScriptName.Substring(0, $ScriptName.Length-8)
             $PRType = $ScriptName.Substring($ScriptName.Length-7, 3)
-            $Path = "$env:LOCALAPPDATA\MattiasVdl\Logs\$PRName\$PRType.log"
+            $Path = "$LogFolderLocation\$PRName\$PRType.log"
         }
 
         # Script:
