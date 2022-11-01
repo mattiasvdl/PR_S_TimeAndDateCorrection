@@ -257,7 +257,7 @@
     write-Log " "
 
     If ($ExitCode -eq 1) {
-        Write-Log "An error has occured."
+        Write-Log "An error has occurred."
     } else {
         Write-Log "The remediation was executed succesfully."
     }
@@ -265,3 +265,5 @@
     Write-Log " "
     Write-Log "---"
     Write-Log " "
+
+    Exit $ExitCode
