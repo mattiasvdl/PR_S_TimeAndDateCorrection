@@ -1,11 +1,13 @@
 # Script:
-#    PR_S_TimeAndDateCorrection_Det.ps1
+#   PR_S_TimeAndDateCorrection_Det.ps1
+# Run as:
+#   System
 # Author:
-#    Mattias Vandelannoote
+#   Mattias Vandelannoote
 # Date:
-#    2022-10-31
+#   2022-10-31
 # Description:
-#    Checks if the Time and Date are correctly set up on the user device.
+#   Checks if the Time and Date are correctly set up on the user device.
 
 # Variables:
 

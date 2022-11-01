@@ -1,5 +1,7 @@
 # Script:
 #   PR_S_TimeAndDateCorrection_Rem.ps1
+# Run as:
+#   System
 # Author:
 #   Mattias Vandelannoote
 # Date:
