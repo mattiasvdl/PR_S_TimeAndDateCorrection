@@ -1,5 +1,5 @@
 # Script:
-#   Package_and_Upload_Intune_Win32_app_using_ps1_script.ps1
+#   PackageAndUploadIntuneWin32App.ps1
 # Author:
     $author = "Mattias Vandelannoote"
 # Date:
@@ -15,9 +15,9 @@
     $GenerateScriptsTo = $PSScriptRoot + "\Generated\"
     $whatToGenerateArray = @("Setup"; "App"; "Detection")
 
-    $templateSetup = "App_Link_Application_Setup.ps1"
-    $template = "App_Link_Application.ps1"
-    $templateDetection = "App_Link_Application_Detection.ps1"
+    $templateSetup = "App_MSA_Application_Setup.ps1"
+    $template = "App_MSA_Application.ps1"
+    $templateDetection = "App_MSA_Application_Detection.ps1"
 
     $fileNameStart = "App_MattiasVdl";
     $appName = "MattiasVdl";
