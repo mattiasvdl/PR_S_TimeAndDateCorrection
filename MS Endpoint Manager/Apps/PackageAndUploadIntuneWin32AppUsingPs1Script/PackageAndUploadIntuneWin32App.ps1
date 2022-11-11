@@ -15,9 +15,9 @@
     $GenerateScriptsTo = $PSScriptRoot + "\Generated\"
     $whatToGenerateArray = @("Setup"; "App"; "Detection")
 
-    $templateSetup = "App_MSA_Application_Setup.ps1"
-    $template = "App_MSA_Application.ps1"
-    $templateDetection = "App_MSA_Application_Detection.ps1"
+    $templateSetup = "App_Link_Application_Setup.ps1"
+    $template = "App_Link_Application.ps1"
+    $templateDetection = "App_Link_Application_Detection.ps1"
 
     $fileNameStart = "App_MattiasVdl";
     $appName = "MattiasVdl";
